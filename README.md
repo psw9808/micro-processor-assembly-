@@ -18,6 +18,7 @@
 - (RB4) LED 연결
 ### PORT C :
 - (RC0~RC7) SEGMENT A~DP 연결
+
 2) 소프트웨어 추가 내용
 ###  기본 모드
 -	시간과 분을 표시하는 모드
@@ -63,7 +64,7 @@ DOT_AD는 먼저 D_DOT변수를 증가시키고 INT_DNT를 초기화한다.  이
 
 ## 프로그램 전체 소스 코드
 
----
+```
 LIST P=16F84
  ; --- REGISTER FILES 선언 -------
  ; BANK 0
@@ -562,4 +563,4 @@ RETURN
 
  END
 
----
+```
